@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/genre_card_height"
+    android:layout_marginTop="@dimen/generic_padding"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:outlineAmbientShadowColor="@color/purple"
+    app:cardCornerRadius="@dimen/genre_card_corner_radius"
+    app:cardElevation="@dimen/genre_card_elevation"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    tools:targetApi="p">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/generic_padding"
+        android:paddingLeft="@dimen/generic_padding"
+        android:paddingRight="@dimen/generic_padding">
+
+        <ImageView
+            android:id="@+id/genreImage"
+            android:layout_width="25sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_history" />
+
+        <TextView
+            android:id="@+id/genreType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8sp"
+            android:layout_toEndOf="@id/genreImage"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="@dimen/sub_header_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_next" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

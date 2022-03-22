@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.BookListFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/app_secondarycolor" />
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/generic_padding"
+        android:layout_marginTop="@dimen/generic_padding"
+        android:layout_marginEnd="@dimen/generic_padding"
+        android:layout_marginBottom="@dimen/generic_padding"
+        android:background="@drawable/rounded_edit_text_drawable"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="@dimen/generic_padding"
+        android:fontFamily="@font/montserrat_regular"
+        android:hint="@string/search"
+        android:padding="@dimen/edit_text_padding"
+        android:textCursorDrawable="@drawable/cursor_drawable"
+        android:textSize="@dimen/edit_text_size"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_light">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_light"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="@dimen/progress_bar_height_width"
+            android:layout_height="@dimen/progress_bar_height_width"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/purple" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_size">16sp</dimen>
+    <dimen name="generic_padding">10dp</dimen>
+    <dimen name="generic_padding16">16dp</dimen>
+    <dimen name="genre_card_corner_radius">4dp</dimen>
+    <dimen name="genre_card_elevation">2dp</dimen>
+    <dimen name="genre_card_height">60dp</dimen>
+    <dimen name="header_size">48sp</dimen>
+    <dimen name="sub_header_size">20sp</dimen>
+    <dimen name="toolbar_text_size">30sp</dimen>
+    <dimen name="top_margin">24dp</dimen>
+    <dimen name="generic_card_view_text_size">12sp</dimen>
+    <dimen name="card_view_image_height">162dp</dimen>
+    <dimen name="card_view_width">114dp</dimen>
+    <dimen name="card_view_corner_radius">8dp</dimen>
+    <dimen name="progress_bar_height_width">50dp</dimen>
+    <dimen name="edit_text_padding">16dp</dimen>
+</resources>

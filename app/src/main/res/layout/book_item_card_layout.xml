@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/card_view_width"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/generic_padding"
+    android:background="@color/grey_light"
+    android:backgroundTint="@color/grey_light"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/card_view_corner_radius"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    tools:targetApi="p">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_view_image_height"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/book" />
+
+        <TextView
+            android:id="@+id/bookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:fontFamily="@font/montserrat_regular"
+            android:paddingLeft="@dimen/genre_card_elevation"
+            android:paddingTop="@dimen/generic_padding"
+            android:paddingRight="@dimen/genre_card_elevation"
+            android:singleLine="true"
+            android:textColor="@color/grey_dark"
+            android:textSize="@dimen/generic_card_view_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bookName"
+            android:fontFamily="@font/montserrat_regular"
+            android:paddingLeft="@dimen/genre_card_elevation"
+            android:paddingRight="@dimen/genre_card_elevation"
+            android:paddingBottom="@dimen/generic_padding"
+            android:singleLine="true"
+            android:textColor="@color/grey_mid"
+            android:textSize="@dimen/generic_card_view_text_size" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

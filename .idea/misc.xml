@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/drawable/cursor_drawable.xml" value="0.124" />
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/drawable/ic_back.xml" value="0.2345" />
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/layout/book_genre_card.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/layout/book_genre_card_layout.xml" value="0.12" />
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/layout/book_item_card_layout.xml" value="0.1" />
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/layout/booki_item_layout.xml" value="0.264" />
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/layout/fragment_book_genre.xml" value="0.176" />
+        <entry key="..\:/Users/azhar/AndroidStudioProjects/GutendexApp/app/src/main/res/layout/fragment_book_list.xml" value="0.136" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
